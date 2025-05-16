@@ -19,4 +19,24 @@ The fact that both the publisher and the subscriber programs use the same AMQP U
 
 The identical URL establishes the common ground that allows the publisher to send messages to the broker, and the subscriber to receive messages from the same broker.
 
+---
+
+### Running RabbitMQ
 ![Running RabbitMQ](images/one.png)
+
+### Subscriber - Publisher Interaction
+![Subscriber - Publisher Interaction](images/two.png)
+
+- The screenshot demonstrates successful communication between the subscriber and publisher through the RabbitMQ message broker.
+
+- The right pane confirms the publisher executed correctly, transmitting the five distinct messages to the broker.
+
+- The left pane illustrates the subscriber's successful reception and printout of these five messages from the publisher.
+
+- Repeated executions of the publisher led to the subscriber receiving and displaying each set of messages, as shown in the left pane.
+
+
+
+
+
+
