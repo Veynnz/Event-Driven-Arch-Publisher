@@ -35,8 +35,7 @@ The identical URL establishes the common ground that allows the publisher to sen
 
 - Repeated executions of the publisher led to the subscriber receiving and displaying each set of messages, as shown in the left pane.
 
+### Chart Spikes
+![Chart Spikes](images/three.png)
 
-
-
-
-
+The spikes shown in the chart are a representation of the running publisher program. Each execution of the publisher resulted in the sending of the 5 messages to the broker. This sudden activity resulted in the sudden increase of the "Message Rates" chart, creating the spike. Then it would go back down to 0, since no more messages are being sent. This spike would be created on every execution of the publisher.
