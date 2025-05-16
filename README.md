@@ -18,3 +18,5 @@ The fact that both the publisher and the subscriber programs use the same AMQP U
 - Loose Coupling: Even though they connect to the same broker, the publisher doesn't need to know anything specific about the subscriber, and vice versa. The message broker acts as an intermediary.
 
 The identical URL establishes the common ground that allows the publisher to send messages to the broker, and the subscriber to receive messages from the same broker.
+
+![Running RabbitMQ](images/one.png)
